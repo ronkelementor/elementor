@@ -11,13 +11,13 @@ jobs:
           client-id: '${{ secrets.JIRA_CLIENT_ID }}'
           client-secret: '${{ secrets.JIRA_CLIENT_SECRET }}'
           cloud-instance-base-url: '${{ secrets.JIRA_CLOUD_INSTANCE_BASE_URL }}'
-          issue-keys: "ED-1269,ED-3134,ARCH-30"
-          display-name: "3.3.0-dev6"
-          url: 'https://github.com/elementor/elementor/actions/runs/859988518'
+          issue-keys: "ED-3214,ED-3210,ARCH-6,ED-3226,ED-3225,ED-3228,ED-3259,ED-3257,ED-3245,ED-3260,ED-3227,ED-3256,ARCH-30"
+          display-name: "Pro 3.4.0-dev6"
+          url: 'https://github.com/elementor/elementor-pro/actions/runs/859993675'
           description: "This PR was merged to the following release(s)"
-          last-updated: '2021-05-20T10:07:20Z'
+          last-updated: '2021-05-20T10:07:04Z'
           state: 'successful'
-          pipeline-url: 'https://github.com/elementor/elementor/actions/runs/859988518'
-          environment-id: "3.3.0-dev6"
-          environment-display-name: "3.3.0-dev6"
+          pipeline-url: 'https://github.com/elementor/elementor-pro/actions/runs/859993675'
+          environment-id: "Pro_3.4.0-dev6"
+          environment-display-name: "Pro 3.4.0-dev6"
           environment-type: 'staging'
