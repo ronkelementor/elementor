@@ -1,0 +1,17 @@
+name: Test
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  bump-version:
+    runs-on: ubuntu-16.04
+    steps:
+      - name: Check developer-edition GitHub checks
+        uses: ronkelementor/confirm-checks-action@e7a20d07265820d18fa50e9f1eaa45a5cc6d5cae # main
+        with:
+          repo: 'elementor/elementor'
+          github_token: ${{ secrets.MAINTAIN_TOKEN }}
+          commit: developer-edition
+          checks: 'JS-Lint,PHP-Lint,Qunit,Lighthouse test - WP latest on PHP 7.4'
